@@ -6,8 +6,8 @@
     <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
     <script>
       var access_token = "";
-      var client_id = "4890f272-92a9-4da4-ae8e-bd73ebb66168";
-      var redirect_uri = "http://localhost:3000/index.html";
+      var client_id = "6b29724f-db63-4eff-b766-fe2a7d234ef1";
+      var redirect_uri = "http://office365room.azurewebsites.net/index.html";
       var resource_uri = "https://graph.microsoft.com/";
       var rest_uri = "https://graph.microsoft.com/beta/me/events";
       var cancel_uri = "";
@@ -59,7 +59,7 @@
               $("#txtResult").val(ret);
             },
             error: function(){
-              alert("エラーが発生しました。");
+              alert("エラーが発生しました！");
             }
           });
         });
